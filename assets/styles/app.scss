@@ -1,0 +1,52 @@
+$baseline: 24px;
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+footer {
+  background: lightblue;
+  padding: $baseline;
+
+  hr {
+    display: none;
+  }
+}
+header {
+  background: lightblue;
+  font-size: 300%;
+  padding: $baseline;
+
+  a {
+    background-color: #638c99;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 60%;
+    text-decoration: none;
+    padding: 6px 12px 8px 12px;
+  }
+
+  a:hover,
+  a:active {
+    background-color: #4d6066;
+  }
+
+  hr {
+    display: none;
+  }
+}
+
+main {
+  padding: $baseline;
+
+  .breadcrumbs {
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      color: black;
+    }
+  }
+}
